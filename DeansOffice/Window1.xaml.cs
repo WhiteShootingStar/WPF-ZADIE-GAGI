@@ -24,7 +24,7 @@ namespace DeansOffice
         {
             InitializeComponent();
 
-            var st3 = new Student { IdStudent = 4, FirstName = "Vitua", LastName = "krasnow", StudentId = 230, Status = "Expelled", Year = 2018, Semestr = "17/18", Specialization = "Dudka", Info = "kek " };
+            var st3 = new Student { IdStudent = 4, FirstName = "Vitua", LastName = "krasnow", StudentId = 230, Status = "Expelled", Year = 2018, Semestr = "17/18", Specialization = "Dudka", Info = "kek ",  Date ="12/13/19"};
             PESEL.Text = "228332";
             SEX.Text = "Male";
             SEMEST.Text = st3.Semestr;
@@ -50,7 +50,8 @@ namespace DeansOffice
             CITIZENSHIP.Text = "Ukranian";
             Subject.Text = "Programming";
             CITY.Text = "Kiev";
-          
+            WPISY.Items.Add(st3);
+            Status.Items.Add(st3);
 
         }
 

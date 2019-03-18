@@ -59,14 +59,14 @@
 				<ColumnDefinition Width="*" ></ColumnDefinition>
 				<ColumnDefinition Width="*"/>
 			</Grid.ColumnDefinitions>
-			<TextBox Grid.Row="3" TextWrapping="Wrap" Text="PESEL"  Height="Auto"  x:Name="PESEL" Grid.ColumnSpan="2" Margin="127,0.2,0.4,5.4" IsReadOnly="True"/>
-			<TextBox Grid.Row="3" TextWrapping="Wrap" Text="SEX"  Height="Auto"  x:Name="SEX" Grid.ColumnSpan="2" Margin="127,37.2,0.4,5" Grid.RowSpan="2"  IsReadOnly="True" />
-			<TextBox Grid.Row="5" TextWrapping="Wrap" Text="DATE"  Height="Auto"  x:Name="DATE" Grid.ColumnSpan="2" Margin="127,0,0.4,4.6" IsReadOnly="True" />
-			<TextBox Grid.Row="6" TextWrapping="Wrap" Text="CITY"  Height="Auto"  x:Name="CITY" Grid.ColumnSpan="2" Margin="127,0.4,0.4,5.2"  IsReadOnly="True" />
-			<TextBox Grid.Row="6" TextWrapping="Wrap" Text="CITiZENSHIP"   Height="Auto" x:Name="CITIZENSHIP" Grid.ColumnSpan="2" Margin="127,37.4,0.4,4.8" Grid.RowSpan="2"  IsReadOnly="True"/>
-			<TextBox Grid.Row="8" TextWrapping="Wrap" Text="TELEPHONE"   Height="Auto"  x:Name="TEL" Grid.ColumnSpan="2" Margin="127,0.2,0.4,4.6"  IsReadOnly="True"/>
-			<TextBox Grid.Row="9" TextWrapping="Wrap" Text="ADRESS"   Height="Auto"  x:Name="Adress" Grid.ColumnSpan="2" Margin="127,0.4,0.4,8.2"  IsReadOnly="True"/>
-			<Label Grid.Column="0" Grid.Row="3" Content="PESEL" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="120"  HorizontalContentAlignment="Right" FontSize="14" FontFamily="Sylfaen" Height="29" Margin="0,0.2,0,0" />
+            <TextBox Grid.Row="3" TextWrapping="Wrap" Text="PESEL"  Height="Auto"  x:Name="PESEL" Grid.ColumnSpan="2" Margin="127,0.2,0.4,5.4" IsReadOnly="True" VerticalContentAlignment="Center"/>
+            <TextBox Grid.Row="3" TextWrapping="Wrap" Text="SEX"  Height="Auto"  x:Name="SEX" Grid.ColumnSpan="2" Margin="127,37.2,0.4,5" Grid.RowSpan="2"  IsReadOnly="True" VerticalContentAlignment="Center" />
+			<TextBox Grid.Row="5" TextWrapping="Wrap" Text="DATE"  Height="Auto"  x:Name="DATE" Grid.ColumnSpan="2" Margin="127,0,0.4,4.6" IsReadOnly="True"  VerticalContentAlignment="Center"/>
+            <TextBox Grid.Row="6" TextWrapping="Wrap" Text="CITY"  Height="Auto"  x:Name="CITY" Grid.ColumnSpan="2" Margin="127,0.4,0.4,5.2"  IsReadOnly="True" VerticalContentAlignment="Center"/>
+            <TextBox Grid.Row="6" TextWrapping="Wrap" Text="CITiZENSHIP"   Height="Auto" x:Name="CITIZENSHIP" Grid.ColumnSpan="2" Margin="127,37.4,0.4,4.8" Grid.RowSpan="2"  IsReadOnly="True" VerticalContentAlignment="Center"/>
+            <TextBox Grid.Row="8" TextWrapping="Wrap" Text="TELEPHONE"   Height="Auto"  x:Name="TEL" Grid.ColumnSpan="2" Margin="127,0.2,0.4,4.6"  IsReadOnly="True" VerticalContentAlignment="Center"/>
+            <TextBox Grid.Row="9" TextWrapping="Wrap" Text="ADRESS"   Height="Auto"  x:Name="Adress" Grid.ColumnSpan="2" Margin="127,0.4,0.4,8.2"  IsReadOnly="True" VerticalContentAlignment="Center"/>
+			<Label Grid.Column="0" Grid.Row="3" Content="PESEL" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="120"  HorizontalContentAlignment="Right" FontSize="14" FontFamily="Sylfaen" Height="29" Margin="0,0.2,0,0"  />
 			<Label Grid.Column="0" Grid.Row="4" Content="SEX" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="120"  HorizontalContentAlignment="Right" FontSize="14" FontFamily="Sylfaen" Height="29" Margin="0,3.6,0,0"/>
 			<Label Grid.Column="0" Grid.Row="5" Content="Date of birth" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="120"  HorizontalContentAlignment="Right" FontSize="14" FontFamily="Sylfaen" Height="29" />
 			<Label Grid.Column="0" Grid.Row="6" Content="Place of birth" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="120"  HorizontalContentAlignment="Right" FontSize="14" FontFamily="Sylfaen" Height="29" Margin="0,0.4,0,0" />
@@ -74,13 +74,13 @@
 			<Label Grid.Column="0" Grid.Row="8" Content="Telephone" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="120"  HorizontalContentAlignment="Right" FontSize="14" FontFamily="Sylfaen" Height="29" Margin="0,0.2,0,0"  />
 			<Label Grid.Column="0" Grid.Row="9" Content="Adress" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="120"  HorizontalContentAlignment="Right" FontSize="14" FontFamily="Sylfaen" Height="29" Margin="0,0.4,0,0" />
 			<Image Grid.Column="0" Grid.Row="0" HorizontalAlignment="Left" Height="100"  VerticalAlignment="Top" Width="92" x:Name="PIC" Grid.RowSpan="3" Margin="28,0,0,0" />
-			<TextBox  IsReadOnly="True" x:Name="NAME" Grid.Row="0" TextWrapping="Wrap" Text="NAME"  Height="Auto" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="18" Grid.ColumnSpan="2" Margin="127,0,7.4,3.6"  />
-			<TextBox   IsReadOnly="True" x:Name="STUDENT_NUMBER" Grid.Column="2" Grid.Row="0"  TextWrapping="Wrap" Text="Student number" Height="Auto" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="18" Margin="0.6,0,1.6,3.6"  />
-			<TextBox  IsReadOnly="True" x:Name="YEAR"  Grid.Column="3" Grid.Row="0" TextWrapping="Wrap" Text="Year"  Height="Auto" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="18" Margin="10.6,0,9.6,4"  />
-			<TextBox IsReadOnly="True" x:Name="Subject" Grid.Row="1"  Grid.ColumnSpan="3" TextWrapping="Wrap" Text="Subject"  Height="Auto" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="18" Margin="127,0.4,1.6,0.2"  />
-			<TextBox  IsReadOnly="True" x:Name="SEMEST" Grid.Column="3" Grid.Row="1"  TextWrapping="Wrap" Text="Semester"  Height="Auto" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="18" Margin="10.6,0,9.6,0"  />
-			<TextBox  IsReadOnly="True" x:Name="SPECIALIZATION" Grid.Row="2" Grid.ColumnSpan="3" TextWrapping="Wrap" Text="Specializtion" Height="Auto" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="18" Margin="127,3.8,1.6,3.8"  />
-			<TextBox IsReadOnly="True"  x:Name="DEBT"   Grid.Column="3" Grid.Row="2"  TextWrapping="Wrap" Text="Debt"  Height="Auto" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="18" Margin="10.6,4,9.6,4"  />
+            <TextBox  IsReadOnly="True" x:Name="NAME" Grid.Row="0" TextWrapping="Wrap" Text="NAME"  Height="Auto" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="18" Grid.ColumnSpan="2" Margin="127,0,7.4,3.6"  VerticalContentAlignment="Center"/>
+            <TextBox   IsReadOnly="True" x:Name="STUDENT_NUMBER" Grid.Column="2" Grid.Row="0"  TextWrapping="Wrap" Text="Student number" Height="Auto" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="18" Margin="0.6,0,1.6,3.6" VerticalContentAlignment="Center" />
+            <TextBox  IsReadOnly="True" x:Name="YEAR"  Grid.Column="3" Grid.Row="0" TextWrapping="Wrap" Text="Year"  Height="Auto" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="18" Margin="10.6,0,9.6,4"  VerticalContentAlignment="Center"/>
+            <TextBox IsReadOnly="True" x:Name="Subject" Grid.Row="1"  Grid.ColumnSpan="3" TextWrapping="Wrap" Text="Subject"  Height="Auto" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="18" Margin="127,0.4,1.6,0.2" VerticalContentAlignment="Center" />
+            <TextBox  IsReadOnly="True" x:Name="SEMEST" Grid.Column="3" Grid.Row="1"  TextWrapping="Wrap" Text="Semester"  Height="Auto" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="18" Margin="10.6,0,9.6,0" VerticalContentAlignment="Center" />
+            <TextBox  IsReadOnly="True" x:Name="SPECIALIZATION" Grid.Row="2" Grid.ColumnSpan="3" TextWrapping="Wrap" Text="Specializtion" Height="Auto" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="18" Margin="127,3.8,1.6,3.8" VerticalContentAlignment="Center" />
+            <TextBox IsReadOnly="True"  x:Name="DEBT"   Grid.Column="3" Grid.Row="2"  TextWrapping="Wrap" Text="Debt"  Height="Auto" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="18" Margin="10.6,4,9.6,4" VerticalContentAlignment="Center" />
 			<DataGrid Grid.Column="2" Grid.Row="4" Grid.ColumnSpan="2" Grid.RowSpan="3" x:Name="WPISY" HorizontalAlignment="Left" Height="101"  VerticalAlignment="Top" Width="327" Margin="60.2,1,0,0" AutoGenerateColumns="False" >
 				<DataGrid.Columns>
 					<DataGridTextColumn Header="Semestr" Width="*" Binding="{Binding Semestr}"></DataGridTextColumn>
@@ -89,10 +89,11 @@
 				</DataGrid.Columns>
 			</DataGrid>
 			<DataGrid Grid.Column="2" Grid.Row="8" Grid.ColumnSpan="2" Grid.RowSpan="2" x:Name="Status" HorizontalAlignment="Left" Height="61"  VerticalAlignment="Top" Width="327" Margin="60.2,0.6,0,0" >
-			<DataGrid.Columns>
-				<DataGridTextColumn Header="Data od" Width="*" Binding="{Binding Data}"></DataGridTextColumn>
-				<DataGridTextColumn Header=" Status" Binding="{Binding Status}" Width="*"></DataGridTextColumn>
-				<DataGridTextColumn Header="Subject" Width="*" Binding="{Binding Subject}"></DataGridTextColumn>
+			<DataGrid.Columns >
+				<DataGridTextColumn Header="Data od" Width="*" Binding="{Binding Date}" ></DataGridTextColumn>
+				<DataGridTextColumn Header=" Status" Binding="{Binding Status}" Width="*" ></DataGridTextColumn>
+                    <DataGridTextColumn Header="Subject" Width="*" Binding="{Binding  Specialization}">
+                       </DataGridTextColumn>
 			</DataGrid.Columns>
 			</DataGrid>
 			<Label Grid.Column="2" Grid.Row="3" Content="Wpisy Na Semestr" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="120"  HorizontalContentAlignment="Left" FontSize="14" FontFamily="Sylfaen" Height="29" Margin="61.6,2,0,0" />

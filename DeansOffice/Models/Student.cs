@@ -18,6 +18,7 @@ namespace DeansOffice.Models
         public string Semestr { get; set; }
         public string Specialization { get; set; }
         public string Info { get; set; }
+        public string Date { get; set; }
 
     }
 }
